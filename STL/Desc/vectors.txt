@@ -1,0 +1,31 @@
+Vectors:
+    > Vectors are continuous memory blocks
+      Vectors are array with dynamic size
+
+    > Syntax
+      vector<data_type> var_name;
+      Ex: vector<int> v;
+      We can also initilize the size of vector
+      Ex: vector<int> v(10);
+      here the size of vector is 10 and initially values at every indices is 0
+      v={0,0,0,0,0,0,0,0,0,0}
+      vector<int> v(10,3);
+      here v={3,3,3,...,3} // 10 times
+
+    > Functions
+      vector<int> v;
+      v.size -> give the size of the vector
+      v.capacity -> gives the capacity of vector. capacity of vector is always *2
+      v.push_back(6) -> 6 is added at the end of vector
+      v.pop_back() -> last element of vector is deleted
+      v.clear() -> remove all elements of vector
+      ***pop_back and clear decrease the size of vector but not the capacity***
+      vector<int> v1 = v; -> vector can be copied
+
+    > Time Complexity
+      size() -> O(1)
+      capacity() -> O(1)
+      push_back() -> O(1)
+      pop_back() -> O(1)
+      clear() -> O(n)
+      copy -> O(n)

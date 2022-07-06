@@ -1,0 +1,23 @@
+Pair:
+    > pair contains 2 values
+
+    > Syntax: pair<1,2> var;
+      Here 1 and 2 are data types or continers and var is variable name
+      Ex: pair<int,string> p;
+
+    > Initialization of pair:
+      p = make_pair(10,"abc");
+      p = {10,"abcs"};
+
+    > Output
+      p.first, p.second
+
+    > pairs of array
+      pair<int,int> p[10];
+      p[0]={1,2};
+      p[1]={9,6};
+      p[2]={2,4};
+      swap(p[0], p[2]);
+
+    > Taking input
+      cin >> p.first >> p.second;
