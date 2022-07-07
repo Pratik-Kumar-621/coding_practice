@@ -1,0 +1,18 @@
+in array if we go through every element once
+order is O(n)
+Single for loop: T-O(n) 
+for inside for: T-O(n^2)
+
+Final time complexity if degree of the polynomial
+
+array soxe div by 2 in each iteration then order is T-O(log2 N)
+Ex: for(int i=n;i>0;i=i/2) => T-O(log2 N)
+
+Binary tree:
+complete element: T-O(n)
+one path = height : T-O(log2 N)
+
+Array: S-O(N)
+Linked List: S-O(N)
+2D Array: O(N^2)
+Binary Tree: O(N)
