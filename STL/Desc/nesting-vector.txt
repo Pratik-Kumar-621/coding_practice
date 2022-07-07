@@ -1,0 +1,20 @@
+Nesting vector:
+
+    > Vector of pair:
+      vector<pair<int,int>> v = {{1,2},{3,1},{4,7}};
+      for{
+        v[i].first & v[i].second for printing
+      }
+      
+    > Arrays of vectors
+      vector<int> v[2];
+      here v[0],v[1] and v[3] are vectors
+      it is like 2d Arrays
+      v[0].push_back(10) ....
+      v[0][10] gives the 10th element of v[0] vector
+      here rows are fixed and colms are diff
+
+    > Vector of vector
+      vector<vector<int>> v;
+      no. of rows are also dynamic here
+      its also a 2d Arrays

@@ -1,0 +1,38 @@
+Iterators:
+    > vector v ={1,2,3,4}
+      v.begin points to 1
+      v.end is points to index after 4
+
+    > Syntax:
+      vector<int> ::iterator it = v.begin();
+      (*it) = 1; 
+
+    > Loop
+      for(it=v.begin(); it!=v.end(); ++it)
+          cout << (*it);
+
+    > ++it & it+1
+      ++it -> next iterator
+      it + 1 -> next location
+      same for vector
+
+    > for vector of pairs
+      vector<pair<int,int>> ::iterator it = v.begin();
+      for(...){
+        cout << (*it).first << (*it).second;
+      }
+      (*it).first <=> (it->first)
+      (*it).second <=> (it->second)
+
+    > range based loops
+      for(int value: v){
+        cout << value;
+      }
+      here vector is copied
+      to change the actual value use &value
+
+    > auto
+      auto a = 1;
+      here type of a is automatically int
+      for(auto it=v.begin)
+      for(auto value:v)
