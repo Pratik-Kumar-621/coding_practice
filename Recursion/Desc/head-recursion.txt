@@ -1,0 +1,15 @@
+if the recursive call is at the top of the function then it it head recursion
+
+i.e funciton is doing all processing at the returning times
+
+EX:
+    fun(n){
+        if(n>0){
+            return fun(n-1)
+            ......
+            ......
+            ......
+        }
+    }
+
+head recursion cant be easily converted into loop

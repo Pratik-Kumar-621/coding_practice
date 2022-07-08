@@ -1,0 +1,18 @@
+if the recursive call is at the last of the function then it it tail recursion
+
+i.e funciton is not doing anything at the returning times
+
+EX:
+    fun(n){
+        if(n>0){
+            ......
+            ......
+            ......
+            return fun(n-1)
+        }
+    }
+
+    *** return f(n-1) + n is not a tail recursion as it is doing something at the returning time
+
+tail recursion is easily converted into loop and it is prefered to use loop instead of tail recursion as
+the space complexity of tail recursion is O(n) and of loop is o(1)

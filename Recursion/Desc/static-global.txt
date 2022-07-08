@@ -1,0 +1,15 @@
+static variable is called only once in function
+
+fun(int n){
+    static int x=0;
+    if(x>0){
+        x++;
+        return fun(n-1)+x;
+
+    }
+}
+this returns n^2 as the value of x becomes n and added n times
+
+same happens if x is declared globally
+
+*** Never use count as a variable name in global variable ***

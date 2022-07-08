@@ -1,0 +1,13 @@
+function that call itself is recursion.
+recursion must have a base condition
+Ex:
+    type fun(param){
+        <base condition>{
+            ....
+        }
+        fun(param);
+    }
+
+Time Complexity: O(n)
+
+Recursion is stack based.
