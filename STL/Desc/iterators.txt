@@ -36,3 +36,6 @@ Iterators:
       here type of a is automatically int
       for(auto it=v.begin)
       for(auto value:v)
+
+    > count
+      count(v.begin,v.end,'a')
